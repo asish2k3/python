@@ -1,8 +1,9 @@
 def is_palindrome(s):
-    s = s.replace(" ", "").lower()
+    s = s.replace(" ","").lower()
     return s == s[::-1]
-word = input("Enter a value")
+word = input("enter a value:")
 if is_palindrome(word):
-    print("Yes, it's a palindrome!")
+    print(word,"is palindrome number")
 else:
-    print("No, it's not a palindrome.")
+    print(word,"is not a palindrome number")
+    
